@@ -8,7 +8,7 @@ The goal of this test is to evaluate:
 # Agenda
 The following test has 2 parts:
 1. at home to design an implement a domain model (~1-2h)
-2. on-site, to add new features during a pair programming session and to present the result to some engineers (2 x 1h)
+2. on-site to add new features during a pair programming session and to present the result to some engineers (2 x 1h)
 
 # Use case
 Let's imagine we need to implement an alerting system for our production services:
