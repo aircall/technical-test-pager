@@ -29,7 +29,7 @@ This is just about pure domain modeling. Keep things simple and straighforward.
 When you're done, please create your public or private repo on GitHub and give access to:
 - [flomarin88](https://github.com/flomarin88)
 - [hwd](https://github.com/hwd)
-- [kmatrah](https://github.com/kmatrah)
+- [kimious](https://github.com/kimious)
 
 Make sure that you put the instructions on how to run unit tests so that we can easily see the result.
   
