@@ -25,9 +25,9 @@ You don't need to implement any delivery and persistence mechanisms (no web serv
 This is just about pure domain modeling. Keep things simple and straighforward.
 
 When you're done, please push your code to a public or private repository on GitHub and give access to:
-- @flomarin88
-- @hwd
-- @kmatrah 
+- [flomarin88](https://github.com/flomarin88)
+- [hwd](https://github.com/hwd)
+- [kmatrah](https://github.com/kmatrah)
 
 Make sure that you put the instructions on how to run unit tests so that we can easily see the result.
   
