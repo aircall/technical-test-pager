@@ -1,6 +1,6 @@
 # Aircall Technical Test - Aircall Pager
 
-The goal of this test is to evaluate :
+The goal of this test is to evaluate:
 - your modeling and testing skills of a small business case
 - your ability to pair program with someone to add new features
 - your ability to present your project to an audience
