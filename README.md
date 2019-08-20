@@ -17,7 +17,7 @@ Let's imagine we need to implement an alerting system for our production service
 - An **Escalation Policy** has several **Levels**, each containing the list of **Targets** to notify (e-mails or phone numbers).
 - At a given **Level**, an **Alert** `knows` the Targets to `notify`. 
 - An **Alert** `iterates` from one **Level** to another if nobody at a given **Level** handled it.
-- When someone `handles` the **Alert**, the system stops escalating it.
+- When one of the **Target** `handles` the **Alert**, the system stops escalating it.
 
 ## 1. Homework (1h)
 Implement a model and unit tests for this alerting system with the programming language and paradigm you prefer.
@@ -33,14 +33,14 @@ When you're done, please create your public or private repo on GitHub and give a
 
 Make sure that you put the instructions on how to run unit tests so that we can easily see the result.
   
-## 2. Pair programming (1h)
+## 2. Pair programming (1h30, on-site)
 Debrief on the model.
 Implement a persistence system on top of the filesystem for Escalation Policies and Alerts
 Implement 2 API endpoints: 
 - `/service/:name/crash` (to trigger an escalation workflow if needed)
 - `/alerts/:id/next` (to go through escalation levels)
 
-## 3. Presentation and collective review (1h)
+## 3. Presentation and collective review (1h, on-site)
 Presentation of the whole project in English to ~3 engineers.
 
 # Questions
