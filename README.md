@@ -19,7 +19,7 @@ Let's imagine we need to implement an alerting system for our production service
 - An **Alert** `iterates` from one **Level** to another if nobody at a given **Level** handled it.
 - When one of the **Target** `handles` the **Alert**, the system stops escalating it.
 
-## 1. Homework (1h)
+## 1. Homework (1.5 hours)
 Implement a model and unit tests for this alerting system with the programming language and paradigm you prefer.
 You don't need to implement any delivery and persistence mechanisms (no web server, no workers, no database).
 This is just about pure domain modeling. Keep things simple and straighforward.
@@ -33,14 +33,14 @@ When you're done, please create your public or private repo on GitHub and give a
 
 Make sure that you put the instructions on how to run unit tests so that we can easily see the result.
   
-## 2. Pair programming (1h30, on-site)
+## 2. Pair programming (1.5 hours / on-site)
 Debrief on the model.
 Implement a persistence system on top of the filesystem for Escalation Policies and Alerts
 Implement 2 API endpoints: 
 - `/service/:name/crash` (to trigger an escalation workflow if needed)
 - `/alerts/:id/next` (to go through escalation levels)
 
-## 3. Presentation and collective review (1h, on-site)
+## 3. Presentation and collective review (1 hour / on-site)
 Presentation of the whole project in English to ~3 engineers.
 
 # Questions
