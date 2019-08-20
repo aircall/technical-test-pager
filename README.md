@@ -7,8 +7,8 @@ The goal of this test is to evaluate :
 
 # Agenda
 The following test has 2 parts:
-- first one at home to design an implement a domain model (~1-2h)
-- second one onsite, to add new features during a pair programming session and to present the result to some engineers (2 x 1h)
+- 1st one at home to design an implement a domain model (~1-2h)
+- 2nd one onsite, to add new features during a pair programming session and to present the result to some engineers (2 x 1h)
 
 # Use case
 Let's imagine we need to implement an alerting system for our production services:
