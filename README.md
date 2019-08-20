@@ -39,7 +39,7 @@ Implement 2 API endpoints:
 - `/alerts/:id/next` (to go through escalation levels)
 
 ## 3. Presentation and collective review (1h)
-Presentation of the whole project
+Presentation of the whole project in English to ~3 engineers.
 
 # Questions
 You can ask any questions by creating issues on your repo and tagging us.
