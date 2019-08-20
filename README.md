@@ -12,11 +12,11 @@ The following test has 2 parts:
 
 # Use case
 Let's imagine we need to implement an alerting system for our production services:
-- A **Service** (identified by its unique name) can `crash` and `start` an **Alert** containing an error message.
+- A **Service** (identified by its unique name) can `crash` and `trigger` an **Alert** containing an error message.
 - A **Service** can have an **Escalation Policy** associated to it. 
 - An **Escalation Policy** has several **Levels**, each containing the list of **Targets** to notify (e-mails or phone numbers).
-- At a given **Level**, an Alert `knows` the Targets to `notify`. 
-- An **Alert** `iterates` from one **Level** to another after some period of time if nobody handled it.
+- At a given **Level**, an **Alert** `knows` the Targets to `notify`. 
+- An **Alert** `iterates` from one **Level** to another if nobody at a given **Level** handled it.
 - When someone `handles` the **Alert**, the system stops escalating it.
 
 ## 1. Homework (1h)
