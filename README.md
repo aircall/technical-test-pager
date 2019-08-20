@@ -24,7 +24,7 @@ Implement a model and unit tests for this alerting system with the programming l
 You don't need to implement any delivery and persistence mechanisms (no web server, no workers, no database).
 This is just about pure domain modeling. Keep things simple and straighforward.
 
-:warning: Do not fork this repo and do not submit any Pull Requests.:warning:
+:warning: Do not fork this repo and do not submit any Pull Requests:warning:
 
 When you're done, please create your public or private repo on GitHub and give access to:
 - [flomarin88](https://github.com/flomarin88)
