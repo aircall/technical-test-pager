@@ -7,8 +7,8 @@ The goal of this test is to evaluate:
 
 # Agenda
 The following test has 2 parts:
-- 1st one at home to design an implement a domain model (~1-2h)
-- 2nd one onsite, to add new features during a pair programming session and to present the result to some engineers (2 x 1h)
+1. at home to design an implement a domain model (~1-2h)
+2. on-site, to add new features during a pair programming session and to present the result to some engineers (2 x 1h)
 
 # Use case
 Let's imagine we need to implement an alerting system for our production services:
@@ -24,7 +24,9 @@ Implement a model and unit tests for this alerting system with the programming l
 You don't need to implement any delivery and persistence mechanisms (no web server, no workers, no database).
 This is just about pure domain modeling. Keep things simple and straighforward.
 
-When you're done, please push your code to a public or private repository on GitHub and give access to:
+:warning: Do not fork this repo and do not submit any Pull Requests.:warning:
+
+When you're done, please create your public or private repo on GitHub and give access to:
 - [flomarin88](https://github.com/flomarin88)
 - [hwd](https://github.com/hwd)
 - [kmatrah](https://github.com/kmatrah)
