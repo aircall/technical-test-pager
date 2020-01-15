@@ -27,7 +27,6 @@ This is just about pure domain modeling. Keep things simple and straighforward.
 :warning: Do not fork this repo and do not submit any Pull Requests:warning:
 
 When you're done, please create your public or private repo on GitHub and give access to:
-- [flomarin88](https://github.com/flomarin88)
 - [hwd](https://github.com/hwd)
 - [kimious](https://github.com/kimious)
 
