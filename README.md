@@ -75,7 +75,7 @@ and doesn’t set an acknowledgement delay
 
 # 1. Homework (3 hours)
 
-Implement a model and unit tests for the domain logic of the Pager Service with the programming language and paradigm you prefer. You don't need to implement any adapters (the ones present in the architecture diagram). This is just about pure domain modeling. Keep things simple and straightforward.
+Implement a model and unit tests for the domain logic of the Pager Service with the programming language and paradigm you prefer. For that, you need also to define interfaces between the adapters & the domain logic. But you must **not** implement any adapters. This is just about pure domain modeling. Keep things simple and straightforward.
 
 :warning: Do not fork this repository and do not submit any Pull Requests :warning:
 
