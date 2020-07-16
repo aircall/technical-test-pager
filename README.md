@@ -30,14 +30,22 @@ The Monitored Service in case of dysfunction sends an Alert (composed of the Ale
 
 Here is the list of Use Case Scenarios that specify what the Pager Service needs to accomplish:
 
+- A service becomes unhealthy
 ```
 Given a Monitored Service in a Healthy State,
 when the Pager receives an Alert related to this Monitored Service,
-then the Monitored Service becomes Unhealthy,
-the Pager notifies all targets of the first level of the escalation policy,
+then the Monitored Service becomes Unhealthy
+```
+
+- Notify all targets of the first level
+```
+Given a Monitored Service in a Healthy State,
+when the Monitored Service becomes unhealthy,
+then the Pager notifies all targets of the first level of the escalation policy,
 and sets a 15-minutes acknowledgement delay
 ```
 
+- Notify all targets of the next level
 ```
 Given a Monitored Service in an Unhealthy State,
 the corresponding Alert is not Acknowledged
@@ -47,6 +55,7 @@ then the Pager notifies all targets of the next level of the escalation policy
 and sets a 15-minutes acknowledgement delay.
 ```
 
+- Do not notify any target
 ```
 Given a Monitored Service in an Unhealthy State
 when the Pager receives the Acknowledgement
@@ -55,6 +64,7 @@ then the Pager doesn't notify any Target
 and doesn't set an acknowledgement delay.
 ```
 
+- Do not notify any target for an unhealthy service
 ```
 Given a Monitored Service in an Unhealthy State,
 when the Pager receives an Alert related to this Monitored Service,
@@ -62,12 +72,20 @@ then the Pager doesn’t notify any Target
 and doesn’t set an acknowledgement delay
 ```
 
+- A service becomes healthy
 ```
 Given a Monitored Service in an Unhealthy State,
 when the Pager receives a Healthy event related to this Monitored Service
 and later receives the Acknowledgement Timeout,
-then the Monitored Service becomes Healthy,
-the Pager doesn’t notify any Target
+then the Monitored Service becomes Healthy
+```
+
+- Do not notify any target for an healthy service
+```
+Given a Monitored Service in an Unhealthy State,
+when the Pager receives a Healthy event related to this Monitored Service
+and later receives the Acknowledgement Timeout,
+then the Pager doesn’t notify any Target
 and doesn’t set an acknowledgement delay
 ```
 
